@@ -1,0 +1,7 @@
+{
+  "name": "Bluetooh",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
