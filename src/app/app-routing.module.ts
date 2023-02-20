@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'interaction',
+    loadChildren: () => import('./interaction/interaction.module').then( m => m.InteractionPageModule)
+  },
 ];
 
 @NgModule({
